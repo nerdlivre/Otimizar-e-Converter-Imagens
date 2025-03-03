@@ -1,0 +1,51 @@
+Scripts Bash para Automação de Otimização e Conversão de Imagens
+
+Este repositório contém scripts Bash que automatizam tarefas de otimização, conversão e renomeação de imagens em lote usando a ferramenta mogrify, do ImageMagick.
+
+📌 Pré-requisitos
+
+Antes de usar os scripts, certifique-se de que o ImageMagick está instalado no seu sistema:
+
+magick -version
+
+Se não estiver instalado, utilize um dos comandos abaixo conforme sua distribuição:
+
+Debian/Ubuntu:
+
+sudo apt update && sudo apt install imagemagick -y
+
+Fedora:
+
+sudo dnf install ImageMagick -y
+
+Arch Linux:
+
+sudo pacman -S imagemagick
+
+📂 Scripts Disponíveis
+
+1️⃣ otimiza_imagens.sh
+
+Otimiza todas as imagens JPG na pasta atual, reduzindo a qualidade para 85% sem comprometer a visualização.
+
+Uso:
+
+chmod +x otimiza_imagens.sh
+./otimiza_imagens.sh
+
+2️⃣ converte_png_jpg.sh
+
+Converte todas as imagens PNG para JPG e remove os arquivos PNG originais.
+
+Uso:
+
+chmod +x converte_png_jpg.sh
+./converte_png_jpg.sh
+
+🛠 Personalização
+
+Os scripts podem ser ajustados para atender às suas necessidades específicas, modificando os parâmetros dentro dos arquivos.
+
+📜 Licença
+
+Este projeto está sob a licença MIT. Contribuições são bem-vindas!
