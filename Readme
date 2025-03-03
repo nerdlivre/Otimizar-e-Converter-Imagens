@@ -6,7 +6,7 @@ Este repositório contém scripts Bash que automatizam tarefas de otimização, 
 
 Antes de usar os scripts, certifique-se de que o ImageMagick está instalado no seu sistema:
 
-magick -version
+convert -version
 
 Se não estiver instalado, utilize um dos comandos abaixo conforme sua distribuição:
 
